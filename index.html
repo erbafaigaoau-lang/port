@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: #333;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #667eea;
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+        
+        .project {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        
+        .project h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .contact-info a:hover {
+            color: #764ba2;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eryl Fred Faigao</h1>
+        <p>Full Stack Developer | Creative Problem Solver</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm a passionate full stack developer with expertise in building modern web applications. I love turning ideas into reality through clean, efficient code.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>E-Commerce Platform</h3>
+                <p>A full-stack e-commerce application built with React and Node.js featuring product management, shopping cart, and payment integration.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Task Management App</h3>
+                <p>A collaborative task management tool with real-time updates, user authentication, and team collaboration features.</p>
+            </div>
+            
+            <div class="project">
+                <h3>Weather Dashboard</h3>
+                <p>Interactive weather application displaying real-time weather data with forecasts and location search functionality.</p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">Git</span>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <a href="mailto:erylfaigao@gmail.com">📧 Email: erylfaigao@gmail.com</a>
+                <a href="Number" target="_blank">Number: 09664873528</a>
+                <a href="Location" target="_blank">Location: sta.rosa, Nueva Ecija, Philippines</a>
+                <a href="https://github.com/erbafaigaoau-lang" target="_blank">Github:</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Eryl Fred Faigao. All rights reserved.</p>
+    </footer>
+</body>
+</html>
